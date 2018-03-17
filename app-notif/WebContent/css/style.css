@@ -1,0 +1,267 @@
+/*Menu*/
+html
+{
+	background-color:white;
+}
+
+body
+{
+	font-family : "Roboto","Helvetica Neue","Helvetica","Arial",sans-serif;
+	font-weight : normal;
+	margin : auto;
+	margin-top:2%;
+	width: 680px;
+	justify-content : center;
+}
+
+body a
+{
+	text-decoration: none;
+	font-size: 14px;
+}
+
+#tabs
+{
+	display:flex;
+	justify-content:center;
+	border-width: 1px 0px 1px 1px;
+	border-style: solid;
+	border-color: #e0e0e0;
+	box-shadow: 0 3px 1px -2px rgba(0,0,0,0.2), 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12);
+}
+
+.feature
+{
+	border-right: 2px solid #e0e0e0;
+	padding: 20px 0px 20px 0px;
+	font-weight: bold;
+	font-size: 14px;
+	flex: 1;
+	color: #747474;
+	background-color: #f5f5f5;
+	text-align:center;
+	cursor:pointer;
+
+}
+
+.feature:hover
+{
+	color:white;
+}
+
+nav .feature:hover:nth-child(1)
+{
+	background-color:#EA4335;
+}
+
+nav .feature:hover:nth-child(2)
+{
+	background-color:#FBBC05;
+}
+
+nav .feature:hover:nth-child(3)
+{
+	background-color:#34A853;
+}
+
+.subject
+{
+	color: rgba(0,0,0,.54);
+	font-size: 14px;
+	font-weight: bold;
+	border: 1px solid #e0e0e0;
+	box-shadow: 0 3px 1px -2px rgba(0,0,0,0.2), 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12);
+}
+
+#searchAddr
+{
+	margin:auto;
+	width: 80%;
+	border: 1px solid #e0e0e0;
+	border-radius: 5px;
+	box-shadow: 0 2px 1px -1px #b6b6b6;
+	margin-top: 20px;
+	display:flex;
+	text-align:center;
+}
+
+#searchAddr label
+{
+	padding-top:10px;
+	flex:1;
+}
+
+#searchAddr input
+{
+	border: none;
+	width: 400px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 15px;
+	flex:3;
+}
+
+#addWebsiteTheme p
+{
+	color: rgba(0,0,0,.54);
+	font-size: 14px;
+	font-weight: bold;
+	margin-right: 10px;
+	margin-left: 10px;
+	border-bottom: 1px solid #e0e0e0;
+	padding-bottom: 4px;
+}
+
+#addWebsiteTheme div
+{
+	text-align:center;
+	color:black;
+	font-weight:normal;
+	font-size:15px;
+	
+}
+#addWebsiteTheme div input
+{
+	margin-left:10px;
+}
+
+#addWebsiteTheme ul
+{
+	font-weight:normal;
+	font-size:15px;
+}
+
+#addWebsiteVisited p
+{
+	color: rgba(0,0,0,.54);
+	font-size: 14px;
+	font-weight: bold;
+	margin-right: 10px;
+	margin-left: 10px;
+	border-bottom: 1px solid #e0e0e0;
+	padding-bottom: 4px;
+}
+
+#addWebsiteVisited ul
+{
+	font-weight:normal;
+	font-size:15px;
+}
+
+#lowerOptions
+{
+	margin:auto;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	display:flex;
+	justify-content: center;
+	border: 1px solid #e0e0e0;
+	border-radius: 5px;
+	width: 80%;
+	
+}
+
+#websiteVerification{
+	margin-right:16%;
+	margin-left: 5%;
+}
+
+#websiteVerification select{
+	background-color: white;
+	padding: 4px 4px 4px 0px;
+	border:0;
+	appearance: none;
+}
+
+.select-selected:after{
+	background-color: white;
+}
+
+#websiteSection{
+	margin-right:15%;
+}
+
+#websiteSection button
+{
+	width:120px;
+	height: 30px;
+	margin-top: 18px;
+	border-radius: 3px;
+	border:0px transparent;
+	background-color: transparent;
+	font-size: 14px;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+#websiteSection button:hover
+{
+	border:1px solid #e0e0e0;
+}
+
+#websiteList
+{
+	text-align:center;
+	padding:5px;
+	border: 1px solid #e0e0e0;
+	box-shadow: 0 3px 1px -2px rgba(0,0,0,0.2), 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12);
+	margin-top:20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#websiteList ul
+{
+	margin:auto;
+	margin-left: 10px;
+	text-align:left;
+	height:140px;
+	overflow:auto;
+	width:90%;
+
+}
+
+#websiteList ul li {
+	margin:8px 10px 5px 0px;
+}
+
+#websiteList input
+{
+	border-radius: 3px;
+	border: 1px solid #d8d8d8;
+	background-color: #4285f4;
+	font-size:15px;
+	color: white;
+	height: 40px;
+	width: 90%;
+	margin: 40px 0px 15px 0px;
+	cursor:pointer;
+}
+
+.deleteToWebsiteList
+{
+	border-radius: 3px;
+	border: 1px solid #d8d8d8;
+	padding-bottom:3px;
+	background-color: #4285f4;
+	font-size:15px;
+	color: white;
+	float:right;
+	cursor:pointer;
+}
+
+#addWebButton
+{
+	border-radius: 3px;
+	border: 1px solid #d8d8d8;
+	padding-bottom:3px;
+	background-color: #4285f4;
+	font-size:20px;
+	color: white;
+	margin-left:90%;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	cursor:pointer;
+}
