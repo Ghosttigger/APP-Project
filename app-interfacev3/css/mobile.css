@@ -1,0 +1,40 @@
+body
+{
+	width: 100%;
+}
+
+
+#tabs
+{
+display : block;
+}
+.feature
+{
+}
+
+#searchAddr
+{
+	flex-wrap: wrap;
+	width : 100%;
+}
+#lowerOptions
+{
+	flex-wrap: wrap;
+	width : 100%;
+
+}
+
+#websiteList ul
+{
+	
+	height: 80px ;
+	width : 80%;
+	margin:auto;
+
+}
+#websiteSection button
+{
+	
+	border-radius: 3px;
+	border: 1px solid #e0e0e0;
+}
