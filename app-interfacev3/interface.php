@@ -5,6 +5,7 @@
 		<meta charset="UTF-8"/>
 		<Title>Suivre des sites</title>
 		<link href="css/style.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" media="screen and (max-width: 1024px)" href="css/mobile.css" />
 	</head>
 	
 	<body>
