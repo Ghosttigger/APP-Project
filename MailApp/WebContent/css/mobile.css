@@ -1,0 +1,145 @@
+#addWebsiteAddr
+{
+	font-size: 30px;	
+}
+
+
+.pageBody
+{
+	width: 100%;
+}
+
+
+
+
+#tabs
+{
+	display : block;
+	margin-bottom: 20px;
+	margin-top: -80px;
+
+}
+.feature
+{
+	padding: 60px;
+	font-size: 30px;
+	border: 1px solid #e0e0e0;
+    box-shadow: 0 3px 7px rgba(0,0,0,0.2), 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12);
+
+}
+
+#searchAddr
+{
+	flex-wrap: wrap;
+	width : 100%;
+
+}
+#lowerOptions
+{
+	flex-wrap: wrap;
+	width : 100%;
+
+}
+
+#websiteList ul
+{
+	
+	height: 300px ;
+	width : 80%;
+	margin:auto;
+
+}
+#websiteSection button
+{
+	
+	border-radius: 3px;
+	border: 1px solid #e0e0e0;
+}
+
+
+#searchAddr input
+{
+	padding-top : 20px;
+	padding-bottom : 20px;
+	font-size : 30px;
+}
+
+#searchAddr label
+{
+	padding-top:20px;
+}
+
+#lowerOptions
+{
+	font-size: 30px;
+}
+
+#websiteSection button
+{
+	font-size: 30px;
+	width:300px;
+	height: 80px;
+}
+
+#websiteVerification
+{
+	padding-top: 40px;
+}
+
+#addWebButton
+{
+	padding:10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size:40px;
+	margin-left:88%;
+}
+
+.deleteToWebsiteList
+{
+	padding:4px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size:30px;
+}
+#websiteList ul li {
+	margin:8px 10px 40px 0px;
+}
+
+#websiteList input
+{
+	border-radius: 3px;
+	border: 1px solid #d8d8d8;
+	background-color: #4285f4;
+	font-size:30px;
+	color: white;
+	height: 80px;
+	width: 90%;
+	margin: 40px 0px 15px 0px;
+	cursor:pointer;
+}
+
+
+#addWebsiteTheme p
+{
+	font-size:30px;
+}
+#addWebsiteTheme div
+{
+	font-size:30px;
+}
+
+#addWebsiteTheme a
+{
+	font-size:30px;
+}
+
+#addWebsiteVisited p
+{
+	font-size:30px;
+}
+
+#addWebsiteVisited a
+{
+	font-size:30px;
+}

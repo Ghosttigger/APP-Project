@@ -1,0 +1,108 @@
+/*Menu*/
+html
+{
+	background-color:white;
+}
+
+body
+{
+	font-family : "Roboto","Helvetica Neue","Helvetica","Arial",sans-serif;
+	font-weight : normal;
+	margin : auto;
+	justify-content : center;
+}
+
+body, html
+{
+	height:100%;
+}
+
+.pageBody
+{
+	width: 680px;
+	margin:auto;
+	margin-top : 100px;
+	min-height:100%;
+	position:relative;
+	margin-bottom: 40px;
+}
+
+/*
+#pageConnexion
+{
+	width: 680px;
+	margin:auto
+}*/
+
+
+
+.menuSite
+{
+	display : flex;
+	align-items: center;
+	flex-wrap : nowrap;
+	background-color: #444;
+	border-bottom: 1px solid #444;
+	box-shadow: 0 1px 20px -2px;
+	height : 60px;
+	justify-content: center;
+	width : 100%;
+}
+
+footer
+{
+	align-items: center;
+	flex-wrap : nowrap;
+	background-color: #4b4f56;
+	height : 60px;
+	justify-content: center;
+	color : white;
+	font-size : 14px;
+	position : absolute;
+	width : 100%;
+	text-align: center;
+	padding-top : 10px;
+	padding-bottom : 10px;
+}
+.onglets
+{
+	width : 100%;
+	text-align: center;
+
+
+}
+.onglets li
+{
+	display : inline-block;
+	margin-right : 5%;
+	margin-left : 5%;
+	border-bottom : 2px solid transparent;
+	padding-bottom: 18px;
+	margin-bottom : -24px;
+
+
+}
+
+.onglets a
+{
+	text-decoration : none;
+	font-size : 14.8px;
+	color : white;
+
+}
+
+.onglets a:hover
+{
+	/*color : #4285f4;*/
+	font-weight: bold;
+}
+
+
+#interface a
+{
+}
+#deconnexion
+{
+	font-weight: bold;
+	font-size : 18px;
+}

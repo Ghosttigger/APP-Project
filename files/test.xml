@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+  <site>
+    <url>http://www.lemonde.fr</url>
+    <sections>
+      <section nom="titres" chemin="section.global.bord_rubrique header">26854C4A366E3D21D853FF4ACF7B6445917333911EC0D7DD75F4D01578415F46</section>
+      <section nom="contenus" chemin="section.global.bord_rubrique div.container">CC478682FE9A1B2CDC1CD6BE7EE5C6E40E1FE8DFE8086242F7FE8953C8CFEB73</section>
+    </sections>
+  </site>
+  <site>
+    <url>http://pageperso.iut.univ-paris8.fr/~jprochard</url>
+    <sections>
+      <section nom="true" chemin="#articleBasDroite">5E420FCF5CE67AE5CA655CFB215AD1C9E091E309AB6D4E9FE2B0B1B280E539D6</section>
+      <section nom="divTest" chemin="#articleBasDroite" />
+    </sections>
+  </site>
+</database>

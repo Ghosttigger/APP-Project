@@ -1,0 +1,6 @@
+(?=<!--)([\s\S]*?-->)
+(?=<script)([\\s\\S]*?/script>)
+(?=<noscript)([\s\S]*?/noscript>)
+(?=<script)([\s\S]*?/script>)
+(?=<.*id="barre_titre")([\s\S]*?/div>)
+(?=<footer)([\s\S]*?/footer>) //supprime les tags <footer>...</footer>
